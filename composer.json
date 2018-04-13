@@ -1,0 +1,24 @@
+{
+    "name": "webgatetec/omnipay-webdosh",
+    "type": "library",
+    "description": "WebDosh Payment Platform Driver for OmniPay",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebGateTec Pty Ltd",
+            "email": "admin@webgatetec.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1",
+        "omnipay/omnipay": "~2.0",
+        "omnipay/dummy": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\WebDosh\\": "src/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
